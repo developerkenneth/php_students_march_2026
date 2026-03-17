@@ -1,0 +1,43 @@
+:root {
+  --ps: 20px;
+  --pm: 45px;
+  --pl: 60px;
+
+  --ms: 25px;
+  --mm: 50px;
+  --ml: 65px;
+
+  --primary : crimson ;
+  --secondary : gray ;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.title{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: var(--ml);
+}
+
+
+input{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button{
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    padding: var(--ps) var(--pm);
+}
+
+.container{
+    padding: var(--pl);
+}
